@@ -1,5 +1,5 @@
 <?php 
-foreach ($page->images as $slider):
+foreach ($page->Images_Carousel as $slider):
 ?>
     <div class="carousel-item active">
       <img src="<?php echo $slider->url; ?>" class="d-block w-100" alt="Foto">
@@ -8,5 +8,3 @@ foreach ($page->images as $slider):
 <?php 
 endforeach;
 ?>
-
-<?php echo $slider->url; ?>

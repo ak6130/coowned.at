@@ -2,7 +2,7 @@
   <div class="carousel-inner">
 
     <?php 
-    $first = $page->Images_Carousel->first()->id;
+    $first = $page->Images_Carousel->eq(0)->id;
     foreach ($page->Images_Carousel as $slider):
     ?>
         <div class="carousel-item <?php if($page->Images_Carousel->first()){echo " active";}; ?>">

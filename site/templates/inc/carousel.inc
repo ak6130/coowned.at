@@ -23,4 +23,4 @@
     </a>
 </div>
 
-<?php echo $first;?>
+<h1> Die ID ist <?php echo $first;?> </h1>

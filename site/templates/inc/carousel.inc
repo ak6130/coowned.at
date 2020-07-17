@@ -4,7 +4,7 @@
     <?php 
     foreach ($page->Images_Carousel as $slider):
     ?>
-        <div class="carousel-item">
+        <div class="carousel-item <?= if($page->Images_Carousel->eq(0)){echo " active";} ?>">
           <img src="<?php echo $slider->url; ?>" class="d-block w-100" alt="Foto">
         </div>
 

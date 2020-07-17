@@ -1,6 +1,7 @@
 <?php
 
-include("./inc/header.inc"); ?>
+include("./inc/header.inc"); 
+include ("./inc/navbar.inc");?>
 
 	<body>
 		<h1><?php echo $page->title; ?></h1>

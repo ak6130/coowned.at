@@ -5,7 +5,7 @@
     $first = $page->Images_Carousel->first();
     foreach ($page->Images_Carousel as $slider):
     ?>
-        <div class="carousel-item <?php if($page->Images_Carousel->first()){echo " active";}; ?>">
+        <div class="carousel-item <?php if($slider = $first){echo " active";}; ?>">
           <img src="<?php echo $slider->url; ?>" class="d-block w-100" alt="Foto">
         </div>
 

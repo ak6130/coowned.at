@@ -1,11 +1,12 @@
 <?php
 
-include("./inc/header.inc"); 
-include ("./inc/navbar.inc");?>
+include("./inc/header.inc"); ?>
 
-	<body>
+	<body>		
 		<div class="container-fluid" max-height="400">
-			<?php include ("./inc/carousel.inc"); ?>
+			<?php 
+			include ("./inc/navbar.inc");
+			include ("./inc/carousel.inc"); ?>
 		</div>
 
 <?php include("./inc/footer.inc"); ?>

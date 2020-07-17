@@ -7,4 +7,4 @@ include ("./inc/navbar.inc");?>
 		<?php include ("./inc/carousel.inc"); ?>
 
 
-include("./inc/footer.inc"); ?>
+<?php include("./inc/footer.inc"); ?>

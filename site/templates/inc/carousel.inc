@@ -5,22 +5,22 @@
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-    <div class="img-fluid active">
-      <img src="<?=$page->carousel_img_1->url?>" class="d-block w-100" alt="..." height="400">
+    <div class="carousel-item img-fluid active">
+      <img src="<?=$page->carousel_img_1->url?>" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Aus der Masse abheben</h5>
         <p>Ein Auto unzähbar, genau wie Sie. Genau wie wir.</p>
       </div>
     </div>
-    <div class="img-fluid">
-      <img src="<?=$page->carousel_img_2->url?>" class="d-block w-100" alt="..." height="400">
+    <div class="carousel-item img-fluid">
+      <img src="<?=$page->carousel_img_2->url?>" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       </div>
     </div>
-    <div class="img-fluid">
-      <img src="<?=$page->carousel_img_3->url?>" class="d-block w-100" alt="..." height="400">
+    <div class="carousel-item img-fluid">
+      <img src="<?=$page->carousel_img_3->url?>" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>

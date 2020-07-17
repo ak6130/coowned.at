@@ -2,6 +2,7 @@
   <div class="carousel-inner">
 
     <?php 
+    $first = $page->Images_Carousel->first()->id;
     foreach ($page->Images_Carousel as $slider):
     ?>
         <div class="carousel-item <?php if($page->Images_Carousel->first()){echo " active";}; ?>">
@@ -21,3 +22,5 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
+
+<?php echo $first;?>
